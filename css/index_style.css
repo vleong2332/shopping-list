@@ -14,7 +14,7 @@ html {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-body {
+#wrapper {
 	max-width: 800px;
 	min-width: 635px;
 	margin: 0 auto;
@@ -60,9 +60,9 @@ h1 {
 #add_item {
 	font-family: 'jrhandregular';
 	border: 0;
-	font-size: 1.5rem;
+	font-size: inherit;
 	color: #C4C4C4;
-	width: 85%%;
+	width: 85%;
 	float: left;
 	display: inline-block;
 	margin: 2rem 0 1rem 2.7rem;
@@ -130,6 +130,19 @@ i:before {
 }
 .flaticon-recycling10 {
 	float: right;
+}
+#reset_list {
+	width: 180px;
+	height: 30px;
+	position: relative;
+	top: 7.6rem;
+	left: 2.3rem;
+	cursor: pointer;
+}
+#bottom_board img {
+	width: 12rem;
+	position: relative;
+	top: 10rem;
 }
 footer {
 	width: 100%;
