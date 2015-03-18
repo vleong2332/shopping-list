@@ -19,7 +19,7 @@
 	<section id="middle_board">
 		<div class="container">
 			<div id="input_line">
-				<input name="add_item" id="add_item"type="text" autofocus="autofocus" maxlength="100" value="Add item . . ." />
+				<input name="add_item" id="add_item"type="text" maxlength="100" value="Add item . . ." onfocus="if(this.value == 'Add item . . .') {this.value = ''};" onblur="if(this.value == '') {this.value = 'Add item . . .'};" />
 				<div id="add_delete">
 					<i class="flaticon-delete101"></i>
 					<i class="flaticon-delete100"></i> <!-- Rotate to form add button -->
@@ -28,21 +28,42 @@
 			</div>
 			<div id="items">
 				<ul id="item_list">
-					<li>Rice</li>
-					<li>Garlic</li>
-					<li>Chicken</li>
-					<li>Kale</li>
-					<li>Ginger</li>
-					<li>Rice</li>
-					<li>Garlic</li>
-					<li>Chicken</li>
-					<li>Kale</li>
-					<li>Ginger</li>
-					<li>Rice</li>
-					<li>Garlic</li>
-					<li>Chicken</li>
-					<li>Kale</li>
-					<li>Ginger</li>
+					<li>
+						<div class="left_icon"><i class="flaticon-pencil122"></i></div>
+						<p>Rotiserie Chicken (Original)</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
+					<li class="checked">
+						<div class="left_icon"><i class="flaticon-eraser2"></i></div>
+						<p>Rotiserie Chicken (Original)</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
+					<li>
+						<div class="left_icon"><i class="flaticon-pencil122"></i></div>
+						<p>Diapers (Newborn) at least 100</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
+					<li>
+						<div class="left_icon"><i class="flaticon-pencil122"></i></div>
+						<p>Basmati rice 15 lbs.</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
+					<li>
+						<div class="left_icon"><i class="flaticon-pencil122"></i></div>
+						<p>Masala powder</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
+					<li>
+						<div class="left_icon"><i class="flaticon-pencil122"></i></div>
+						<p>Trash bag (30 gal)</p>
+						<div class="right_icon"><i class="flaticon-recycling10"></i></div>
+						<div style="clear: both"></div>
+					</li>
 				</ul>
 			</div>
 		</div>
