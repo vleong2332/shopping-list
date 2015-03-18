@@ -76,6 +76,26 @@ h1 {
 	float: right;
 	margin-top: 2.25rem;
 	margin-right: 0.5rem;
+	display: table;
+}
+button#add {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+/*.flaticon-delete100:before {
+	display: inline-block;
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	color: green;
+}*/
+.flaticon-delete101:before {
+	color: red;
+	display: inline-block;
 }
 #item_list > li {
 	padding: 0.4rem 0.5rem;
@@ -91,16 +111,6 @@ h1 {
 }
 i:before {
 	cursor: pointer;
-}	
-.flaticon-delete100:before {
-	-ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-	transform: rotate(45deg);
-	display: inline-block;
-	color: green;
-}
-.flaticon-delete101 {
-	color: red;
 }
 .left_icon {
 	margin-right: 1rem;
