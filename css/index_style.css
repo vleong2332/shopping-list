@@ -43,7 +43,7 @@ h1 {
 	color: #4830DA;
 }
 #middle_board {
-	min-height: 100px;
+	min-height: 220px;
 	background-image: url('../img/whiteboard_middle.svg');
 	background-repeat: repeat-y;
 	background-position: center;

@@ -13,6 +13,17 @@ $(document).ready( function() {
 	 	$(this).toggleClass("flaticon-eraser2");
 	 	$(this).parent().parent().toggleClass("checked");
 	});
+
+	// REMOVE A SINGLE ITEM PERMANENTLY
+	$('#item_list').on('click', '.flaticon-recycling10', function() {
+		$(this).parent().parent().remove();
+	});
+
+	// RESET THE WHOLE LIST
+	$('#reset_list').click( function() {
+		if(confirm("This will remove everything on the list"))
+			$('#item_list > li').remove();
+	});
 });
 
 // ADDING TO THE LIST
