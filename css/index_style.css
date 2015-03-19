@@ -100,18 +100,11 @@ button#add:focus{
 button#add:hover {
 	background-color: rgba(97, 243, 124, 0.5);
 }
-/*.flaticon-delete100:before {
-	display: inline-block;
-	-ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	color: green;
-}*/
 #item_list > li {
 	padding: 0.4rem 0.5rem;
 }
 #item_list > li:hover {
-	background-color: #CFF8FE;
+	background-color: rgba(207, 248, 254, 0.65);
 }
 #item_list > li:hover > .left_icon{
 	color: #4830DA;
@@ -188,3 +181,61 @@ footer a {
 	color: indianred;
 	text-decoration: none;
 }
+
+/* ==================
+ * RESPONSIVE STYLING
+ * ================== */
+@media all and (max-width: 634px) {
+	#wrapper {
+		max-width:400px;
+		min-width:320px;
+		font-size: 1.6rem;
+	}
+	#top_board {
+		background-size: 418px auto;
+		height: 120px;
+	}
+	#middle_board {
+		background-size: 420px auto;
+		min-height: 100px;
+		margin-top: 0;
+	}
+	#bottom_board {
+		background-size: 418px auto;
+	}
+	.container {
+		width: 320px;
+	}
+	h1 {
+		font-size: 2.2rem;
+	}
+	#add_item {
+		width: 78%;
+	}
+	#item_list p {
+		width: 300px;
+	}
+	#item_list .right_icon {
+		position: relative;
+		top:-25px;
+	}
+	#item_list > li {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
+	#reset_list {
+		width: 98px;
+		height: 20px;
+		top: 3.8rem;
+		left: 1.6rem;
+	}
+	#bottom_board img {
+  		width: 9rem;
+  		top: 4rem;
+ 	}
+ 	#credit {
+ 		padding: 3rem 0.5rem;
+ 	}
+ }
