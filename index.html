@@ -20,12 +20,10 @@
 		<section id="middle_board">
 			<div class="container">
 				<form id="input_line">
-					<input name="add_item" id="add_item"type="text" maxlength="100" value="Add item . . ." onfocus="if(this.value == 'Add item . . .') {this.value = ''};" onblur="if(this.value == '') {this.value = 'Add item . . .'};" />
-					<div id="add_delete">
-						<i class="flaticon-delete101"></i>
+					<div class="left_icon"><i class="flaticon-delete101"></i></div>
+					<input name="add_item" id="add_item"type="text" maxlength="100" value="Add item . . ." onfocus="if(this.value == 'Add item . . .') {this.value = ''};" onblur="if(this.value == '') {this.value = 'Add item . . .'};" onkeydown="if(event.keyCode === 13) return false;"/>
 						<!-- <i class="flaticon-delete100"></i>  Rotate to form add button -->
-						<button id="add" type="button" onclick="addItemToList()" />
-					</div>
+					<div class="right_icon"><button id="add" type="button" onclick="addItemToList()"/></div>
 					<div style="clear: both"></div>
 				</form>
 				<div id="items">
