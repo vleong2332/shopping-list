@@ -176,6 +176,7 @@ footer {
 	font-size: 1rem;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
+	border-top: 2px solid #666666;
 }
 #credit {
 	padding: 3rem 0;
