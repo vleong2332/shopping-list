@@ -139,11 +139,9 @@ i:before {
 	display: inline-block;
 	float: left;
 }
-#item_list .checked {
-	color: #D0D0D0;
-}
 .checked p {
 	text-decoration: line-through;
+	color: #D0D0D0;
 }
 .flaticon-pencil122:before, .flaticon-eraser2:before {
 	margin-left: 0;
