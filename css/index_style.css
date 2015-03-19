@@ -174,11 +174,16 @@ footer {
 	background-color: #464646;
 	color: #CFF8FE;
 	font-size: 1rem;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
 }
 #credit {
 	padding: 3rem 0;
 }
-#credit a {
-	color: inherit;
+footer p {
+	margin: 0.75rem 0;
+}
+footer a {
+	color: indianred;
 	text-decoration: none;
 }
